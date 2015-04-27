@@ -5,7 +5,7 @@ Documentation
 *************
 
 Overview
-************
+============
 
 There are three major categories of documentation, all of which are critical to
 the usability and maintainability of any project.
@@ -26,7 +26,7 @@ Shining examples:
 .. _end-user-doc:
 
 End User Documentation
-************
+============
     
 Documentation for the end user consists of guides and tutorials. Markdown,
 especially `github flavored markdown
@@ -44,7 +44,7 @@ projects. It can easily be built automatically with `readthedocs
 .. _reference-doc:
 
 Reference [API] Documentation
-************
+============
 
 Most languages have some de facto standard(s) for API documentation. Pick one and use it.
 
@@ -62,7 +62,7 @@ comments too).
 .. _comment-doc:
 
 Code Comments
-************
+============
 
 Code comments should describe complicated or non-obvious code for future
 maintainers. Do not describe what the code does, but rather what you are
