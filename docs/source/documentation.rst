@@ -38,7 +38,7 @@ projects. It can easily be built automatically with `readthedocs
 <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ and `reference
 <http://sphinx-doc.org/rest.html>`_.
 
-.. reference-doc:
+.. _reference-doc:
 
 **Reference [API] Documentation**
 
@@ -55,7 +55,7 @@ Reference documentation should be up to date before every merge from a feature
 branch. Incorrect documentation is worse than no documentation (goes for
 comments too).
 
-.. comment-doc:
+.. _comment-doc:
 
 **Code Comments**
 
