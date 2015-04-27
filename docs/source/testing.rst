@@ -24,7 +24,8 @@ The following is an answer from `stackoverflow
 <http://stackoverflow.com/a/4904533>`_ by Mark Simpson, and provides an
 excellent summary of the different types of code tests: 
 
-**Unit Tests**
+Unit Tests
+*************
 
 Tests the smallest unit of functionality, typically a method/function (e.g.
 given a class with a particular state, calling x method on the class should
@@ -50,7 +51,8 @@ building blocks of your program function as intended before they're put
 together. The caveat is that, although you can prove they work perfectly in
 isolation, the units of code may blow up when combined which brings us to ...
 
-**Integration Tests**
+Integration Tests
+*************
 
 Integration tests build on unit tests by combining the units of code and testing
 that the resulting combination functions correctly. This can be either the
@@ -77,7 +79,8 @@ diagnose and the tests are harder to maintain.
 Also, integration tests don't necessarily prove that a complete feature works.
 The user may not care about the internal details of my programs, but I do!
 
-**Functional Tests**
+Functional Tests
+*************
 
 Functional tests check a particular feature for correctness by comparing the
 results for a given input against the specification. Functional tests don't
@@ -86,7 +89,8 @@ concern themselves with intermediate results or side-effects, just the result
 test part of the specification such as, "calling function Square(x) with the
 argument of 2 returns 4".
 
-**Acceptance Tests**
+Acceptance Tests
+*************
 
 Acceptance testing seems to be split into two types:
 
@@ -109,7 +113,8 @@ suite is basically an executable specification written in a domain specific
 language that describes the tests in the language used by the users of the
 system.
 
-**Conclusion**
+Conclusion
+*************
 
 They're all complementary. Sometimes it's advantageous to focus on one type or
 to eschew them entirely. The main difference for me is that some of the tests
