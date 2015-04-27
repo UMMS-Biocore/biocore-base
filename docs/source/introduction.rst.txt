@@ -11,9 +11,15 @@ current and future projects. You are free to modify and use as you see fit.
 **Documentation**
     
     We recommend sphinx for your 
-    End-User
-    Function (API)
+
+    End-User Guides and Tutorials
+      Sphinx+readthedocs recommended
+    Functional Reference (API)
+      Whatever is native in your language (e.g. docstring for python)
+      All public methods, functions, classes, etc. should be documented
+      
     Code Comments
+      
 
 
 **Version Control**
