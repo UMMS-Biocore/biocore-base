@@ -8,19 +8,8 @@ The `UMMS Biocore Team <http://www.umassmed.edu/biocore/>`_ provides this
 repository as a basis for documentation and metadata included in the source of
 current and future projects. You are free to modify and use as you see fit.
 
-**Documentation**
-    
-    :ref:`end-user-doc`
-      Sphinx+readthedocs recommended
-
-    :ref:`reference-doc`
-      Whatever is native in your language (e.g. docstring for python)
-      All public methods, functions, classes, etc. should be documented
-
-    :ref:`comment-doc`
-      Inline code comments
-
-**Version Control**
+Version Control
+=============
 
     All code should be committed to version control from inception.
     This is a critical part of managing development and regression, and makes it
@@ -34,7 +23,8 @@ current and future projects. You are free to modify and use as you see fit.
     `semantic versioning <http://semver.org/>`_ are popular choices) and
     document that choice in your source. 
     
-**Style**
+Style
+=============
 
     When collaborating on code with others, especially with the intention of
     releasing it, it is critical to maintain a consistent style. Select and
@@ -42,7 +32,8 @@ current and future projects. You are free to modify and use as you see fit.
     not follow the style guidelines should be rejected and refactored. To aid in
     this, run a linting tool in a post-commit hook and/or in your CI.
 
-**Testing**
+Testing
+=============
 
     Write tests with your code. Treat them as a single entity, along with your
     documentation.
@@ -51,7 +42,8 @@ current and future projects. You are free to modify and use as you see fit.
     <http://www.extremeperl.org/bk/test-driven-design>`_, but don't incorporate
     excessive complexity just to make something TDD compatible.
 
-**Continuous Integration**
+Continuous Integration
+=============
 
     When collaborating on code with others, especially with the intention of releasing it,
     it is important to maintain a consistent style. 
@@ -59,7 +51,8 @@ current and future projects. You are free to modify and use as you see fit.
     Unit tests
     linting
 
-**License**
+License
+=============
 
     This repository is released under the MIT license included in `LICENSE`.
     You may choose to use another license instead for your project.

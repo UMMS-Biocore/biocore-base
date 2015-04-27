@@ -2,8 +2,9 @@
 UMASS Med Biocore Base
 ==============================
 
-This the documentation for the Biocore base repository, providing guidelines for
-development on other projects.
+The UMMS Biocore Team provides this repository as a basis for documentation and
+metadata included in the source of current and future projects. You are free to
+modify and use as you see fit under the MIT license included in ``LICENSE``.
 
 ********
 Contents
@@ -12,11 +13,11 @@ Contents
 .. toctree::
     :maxdepth: 2
 
-    introduction
     documentation
     versioning
     git
     testing
     style
+    continuous-integration
 
 

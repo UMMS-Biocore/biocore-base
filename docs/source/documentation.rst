@@ -6,9 +6,10 @@ Documentation
 
 Overview
 ============
-
-There are three major categories of documentation, all of which are critical to
-the usability and maintainability of any project.
+   
+Documentation should be part of your project's codebase and developed
+synchronously with new features and fixes. Three types of documentation should
+be included:
 
 * :ref:`end-user-doc`
 * :ref:`reference-doc`
