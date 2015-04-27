@@ -12,7 +12,7 @@ the usability and maintainability of any project.
 
 * :ref:`end-user-doc`
 * :ref:`reference-doc`
-* :ref:`text <comment-doc>`
+* :ref:`comment-doc`
 
 Parse published an excellent `primer on documentation <http://blog.parse.com/learn/engineering/designing-great-api-docs/>`_.
 
@@ -53,7 +53,7 @@ For python these are docstring formats, currently either `numpy
 and `google's pyguide
 <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments>`_.
 
-Automated tools such as Doxygen may be able to aid in creating some of this.
+Automated tools such as `Doxygen <http://www.stack.nl/~dimitri/doxygen/>`_ may be able to aid in creating some of this.
 
 Reference documentation should be up to date before every merge from a feature
 branch. Incorrect documentation is worse than no documentation (goes for
