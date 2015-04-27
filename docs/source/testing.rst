@@ -1,4 +1,4 @@
-.. _testing
+.. _testing:
 ************
 Testing
 ************
@@ -19,6 +19,7 @@ Types of Tests
 ************
 
 The following is an answer from `stackoverflow <http://stackoverflow.com/a/4904533>`_ by Mark Simpson, and provides an excellent summary of the different types of code tests: 
+
 **Unit Tests**
 
 Tests the smallest unit of functionality, typically a method/function (e.g. given a class with a particular state, calling x method on the class should cause y to happen). Unit tests should be focussed on one particular feature (e.g., calling the pop method when the stack is empty should throw an InvalidOperationException). Everything it touches should be done in memory; this means that the test code and the code under test shouldn't:
