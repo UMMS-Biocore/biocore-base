@@ -12,11 +12,13 @@ current and future projects. You are free to modify and use as you see fit.
     
     :ref:`end-user-doc`
       Sphinx+readthedocs recommended
-		:ref:`reference-doc`
+
+    :ref:`reference-doc`
       Whatever is native in your language (e.g. docstring for python)
       All public methods, functions, classes, etc. should be documented
-		:ref:`comment-doc`
-			Inline code comments
+
+    :ref:`comment-doc`
+      Inline code comments
 
 **Version Control**
 
