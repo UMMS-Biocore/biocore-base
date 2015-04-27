@@ -1,4 +1,5 @@
 .. _testing:
+
 ************
 Testing
 ************
@@ -15,9 +16,9 @@ A few guidelines:
 * Mandate code coverage
 * Require that tests accompany code at merge
 
-************
+**************
 Types of Tests
-************
+**************
 
 The following is an answer from `stackoverflow
 <http://stackoverflow.com/a/4904533>`_ by Mark Simpson, and provides an

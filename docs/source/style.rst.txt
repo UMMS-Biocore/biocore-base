@@ -1,3 +1,9 @@
+.. _style:
+
+*********
+Style
+*********
+
 https://github.com/styleguide/ (ruby, android, CSS)
 https://code.google.com/p/google-styleguide/ (many languages)
 https://github.com/necolas/idiomatic-css

@@ -1,7 +1,8 @@
 .. _documentation:
-************
+
+*************
 Documentation
-************
+*************
 
 **Overview**
 
@@ -10,12 +11,21 @@ the usability and maintainability of any project.
 
 Parse published an excellent `primer on documentation <http://blog.parse.com/learn/engineering/designing-great-api-docs/>`_.
 
-Shining examples: `github <https://developer.github.com>`_, the `stripe API <https://stripe.com/docs/api>`_ and `docs <https://stripe.com/docs>`_, and `bootstrap-datepicker <http://bootstrap-datepicker.readthedocs.org/en/v1.4.0/>`_.
+Shining examples: `github <https://developer.github.com>`_, the `stripe API
+<https://stripe.com/docs/api>`_ and `docs <https://stripe.com/docs>`_, and
+`bootstrap-datepicker
+<http://bootstrap-datepicker.readthedocs.org/en/v1.4.0/>`_.
 
 **End User Documentation**
     
 Documentation for the end user consists of guides and tutorials. Markdown,
-especially `github flavored markdown <https://help.github.com/articles/github-flavored-markdown/>`_ may be a good choice for small projects. `Restructured Text (reST) 
+especially `github flavored markdown
+<https://help.github.com/articles/github-flavored-markdown/>`_ may be a good
+choice for small projects. `Restructured Text (reST)
+<http://docutils.sourceforge.net/rst.html>`_ in the form of `Sphinx
+<http://sphinx-doc.org/rest.html>`_ is strongly recommended for non-trivial
+projects. It can easily be built automatically with `readthedocs
+<http://docs.readthedocs.org/en/latest/getting_started.html#import-your-docs>`_
 
 `reST syntax guide
 <http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ and `reference
