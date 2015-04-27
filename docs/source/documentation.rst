@@ -9,9 +9,10 @@ Documentation
 There are three major categories of documentation, all of which are critical to
 the usability and maintainability of any project.
 
-  :ref:`end-user-doc`
+  what about :ref:`end-user-doc`
   :ref:`reference-doc`
-  :ref:`comment-doc`
+  or
+  :ref:`text <comment-doc>`
 
 Parse published an excellent `primer on documentation <http://blog.parse.com/learn/engineering/designing-great-api-docs/>`_.
 
