@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Biocore-base'
-copyright = u'2015, Alastair Firth'
+copyright = u'2015'
 author = u'Alastair Firth'
 
 # The version info for the project you're documenting, acts as replacement for
