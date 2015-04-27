@@ -24,7 +24,6 @@ Shining examples:
 * `bootstrap-datepicker <http://bootstrap-datepicker.readthedocs.org/en/v1.4.0/>`_.
 
 .. _end-user-doc:
-
 **End User Documentation**
     
 Documentation for the end user consists of guides and tutorials. Markdown,
@@ -41,7 +40,6 @@ projects. It can easily be built automatically with `readthedocs
 <http://sphinx-doc.org/rest.html>`_.
 
 .. _reference-doc:
-
 **Reference [API] Documentation**
 
 Most languages have some de facto standard(s) for API documentation. Pick one and use it.
@@ -58,7 +56,6 @@ branch. Incorrect documentation is worse than no documentation (goes for
 comments too).
 
 .. _comment-doc:
-
 **Code Comments**
 
 Code comments should describe complicated or non-obvious code for future
