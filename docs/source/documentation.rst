@@ -9,13 +9,14 @@ Documentation
 There are three major categories of documentation, all of which are critical to
 the usability and maintainability of any project.
 
-* :ref:`end-user-doc`
-* :ref:`reference-doc`
-* :ref:`comment-doc`
+  :ref:`end-user-doc`
+  :ref:`reference-doc`
+  :ref:`comment-doc`
 
 Parse published an excellent `primer on documentation <http://blog.parse.com/learn/engineering/designing-great-api-docs/>`_.
 
 Shining examples: 
+
 * `github <https://developer.github.com>`_
 * `stripe API <https://stripe.com/docs/api>`_ 
 * `stripe docs <https://stripe.com/docs>`_
