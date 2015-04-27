@@ -16,7 +16,7 @@ General
 * https://code.google.com/p/google-styleguide/ (many languages)
 * https://github.com/necolas/idiomatic-css
 
-Language Centric (usually much less idomatic, supplement with another)
+Language Centric 
 ===============
 
 Perl
