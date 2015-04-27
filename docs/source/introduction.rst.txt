@@ -10,19 +10,16 @@ current and future projects. You are free to modify and use as you see fit.
 
 **Documentation**
     
-    We recommend sphinx for your 
-
-    End-User Guides and Tutorials
+    :ref:`end-user-doc`
       Sphinx+readthedocs recommended
-    Functional Reference (API)
+		:ref:`reference-doc`
       Whatever is native in your language (e.g. docstring for python)
       All public methods, functions, classes, etc. should be documented
-      
-    Code Comments
-      
-
+		:ref:`comment-doc`
+			Inline code comments
 
 **Version Control**
+
     All code should be committed to version control from inception.
     This is a critical part of managing development and regression, and makes it
     much easier to share and collaborate - now or in the future.
@@ -44,6 +41,7 @@ current and future projects. You are free to modify and use as you see fit.
     this, run a linting tool in a post-commit hook and/or in your CI.
 
 **Testing**
+
     Write tests with your code. Treat them as a single entity, along with your
     documentation.
     Invest some time in learning how to write good tests. 
