@@ -4,15 +4,15 @@
 Documentation
 *************
 
-**Overview**
+Overview
+************
 
 There are three major categories of documentation, all of which are critical to
 the usability and maintainability of any project.
 
-  what about :ref:`end-user-doc`
-  :ref:`reference-doc`
-  or
-  :ref:`text <comment-doc>`
+* :ref:`end-user-doc`
+* :ref:`reference-doc`
+* :ref:`text <comment-doc>`
 
 Parse published an excellent `primer on documentation <http://blog.parse.com/learn/engineering/designing-great-api-docs/>`_.
 
@@ -24,7 +24,9 @@ Shining examples:
 * `bootstrap-datepicker <http://bootstrap-datepicker.readthedocs.org/en/v1.4.0/>`_.
 
 .. _end-user-doc:
-**End User Documentation**
+
+End User Documentation
+************
     
 Documentation for the end user consists of guides and tutorials. Markdown,
 especially `github flavored markdown
@@ -40,7 +42,9 @@ projects. It can easily be built automatically with `readthedocs
 <http://sphinx-doc.org/rest.html>`_.
 
 .. _reference-doc:
-**Reference [API] Documentation**
+
+Reference [API] Documentation
+************
 
 Most languages have some de facto standard(s) for API documentation. Pick one and use it.
 
@@ -56,7 +60,9 @@ branch. Incorrect documentation is worse than no documentation (goes for
 comments too).
 
 .. _comment-doc:
-**Code Comments**
+
+Code Comments
+************
 
 Code comments should describe complicated or non-obvious code for future
 maintainers. Do not describe what the code does, but rather what you are
