@@ -39,8 +39,8 @@ projects. It can easily be built automatically with `readthedocs
 <http://docs.readthedocs.org/en/latest/getting_started.html#import-your-docs>`_
 
 `reST syntax guide
-<http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_ and `reference
-<http://sphinx-doc.org/rest.html>`_.
+<http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_, `reference
+<http://sphinx-doc.org/rest.html>`_, and `cheat sheet <http://github.com/ralsina/rst-cheatsheet/raw/master/rst-cheatsheet.pdf>`_.
 
 .. _reference-doc:
 
@@ -51,10 +51,12 @@ Most languages have some de facto standard(s) for API documentation. Pick one an
 
 For python these are docstring formats, currently either `numpy
 <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#id6>`_
+`(example) <https://github.com/numpy/numpy/blob/master/doc/example.py#L39>`_
 and `google's pyguide
 <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=Comments#Comments>`_.
 
-Automated tools such as `Doxygen <http://www.stack.nl/~dimitri/doxygen/>`_ may be able to aid in creating some of this.
+Automated tools such as `Doxygen <http://www.stack.nl/~dimitri/doxygen/>`_ may
+be able to aid in creating some of this.
 
 Reference documentation should be up to date before every merge from a feature
 branch. Incorrect documentation is worse than no documentation (goes for
@@ -77,6 +79,7 @@ trying to do with the code. E.g. from `pyguide:
     # the array.  We extrapolate position based on the largest num
     # in the array and the array size and then do binary search to
     # get the exact number.
+    ...complicated search algo...
 
     if i & (i-1) == 0:        # true iff i is a power of 2
 
