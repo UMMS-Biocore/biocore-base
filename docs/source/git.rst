@@ -4,9 +4,6 @@
 Git
 ************
 
-`Git <http://git-scm.com/>`_ is a version control system which tracks and
-merges changes in source code. 
-
 All code should be committed to version control from inception.
 This is a critical part of managing development and regression, and makes it
 much easier to share and collaborate - now or in the future.
