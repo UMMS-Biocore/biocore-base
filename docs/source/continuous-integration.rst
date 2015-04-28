@@ -1,8 +1,8 @@
 .. _continuous-integration:
 
-************
+************************
 Continuous Integration
-************
+************************
 
 Work in progress
 

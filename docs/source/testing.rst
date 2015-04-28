@@ -51,7 +51,7 @@ together. The caveat is that, although you can prove they work perfectly in
 isolation, the units of code may blow up when combined which brings us to ...
 
 Integration Tests
--------------
+-----------------
 
 Integration tests build on unit tests by combining the units of code and testing
 that the resulting combination functions correctly. This can be either the
@@ -79,7 +79,7 @@ Also, integration tests don't necessarily prove that a complete feature works.
 The user may not care about the internal details of my programs, but I do!
 
 Functional Tests
--------------
+----------------
 
 Functional tests check a particular feature for correctness by comparing the
 results for a given input against the specification. Functional tests don't
@@ -89,7 +89,7 @@ test part of the specification such as, "calling function Square(x) with the
 argument of 2 returns 4".
 
 Acceptance Tests
--------------
+----------------
 
 Acceptance testing seems to be split into two types:
 
