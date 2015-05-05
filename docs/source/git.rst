@@ -54,8 +54,42 @@ following the steps below:
 Fork Repo
 ---------
 
-Create a fork of the repository under your github username by clicking the fork
-button
+Create a `fork of the repository
+<https://help.github.com/articles/fork-a-repo/>`_ under your github username by
+clicking the fork button.
+
+.. code-block:: bash
+
+  $ git remote add origin https://github.com/USERNAME/REPONAME.git
+  $ git config branch.develop.remote origin
+  $ git config branch.stable.remote origin
+
+Work in a Feature Branch
+------------------------
+
+.. code-block:: bash
+
+  $ git checkout -u origin 2015-04-22_my_feature
+  $ .... do some work ...
+  $ git add <files>
+  $ git commit -m 'Commit message'
+  $ git push
+
+`Create a pull request
+<https://help.github.com/articles/creating-a-pull-request/>`_ onto upstream
+from your feature branch.
+
+Once it's merged, you can fetch the updated copy of develop:
+
+.. code-block:: bash
+  $ git checkout develop
+  $ git pull upstream develop
+
+Additional info
+---------------
+
+`hub <https://hub.github.com/>_` is a tool from github which simplifies many of
+these commands, and is highly recommended when working with github.
 
 Branching
 =========
