@@ -91,6 +91,9 @@ Additional info
 `hub <https://hub.github.com/>_` is a tool from github which simplifies many of
 these commands, and is highly recommended when working with github.
 
+`Github for Mac <https://mac.github.com/>`_ is an excellent GUI which allows
+you to complete most operations without using the command line.
+
 Branching
 =========
 
@@ -112,7 +115,26 @@ FAQ
 I've lost a file that I didn't commit
 -------------------------------------
 
-Unfortunately, git can't help you here. Commit early and often. Local backups (such as time machine) may have a copy.
+Unfortunately, git can't help you here. Commit early and often. Local backups
+(such as time machine) may have a copy.
+
+I accidently deleted a file
+---------------------------
+
+If you haven't committed the change, just check it out again:
+
+.. code-block:: bash
+
+  git checkout FILENAME
+
+If you have commited the change:
+Since the file is no longer in the working tree, the last commit to touch it
+must have deleted the file. We first find that commit in the revision list, then
+checkout the file from that commit's parent (~1):
+
+.. code-block:: bash
+
+  git checkout $(git rev-list -n 1 HEAD -- FILENAME)~1 -- FILENAME
 
 I've lost a commit
 ------------------
