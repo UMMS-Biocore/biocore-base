@@ -89,6 +89,7 @@ Workflow summary
 ----------------
 
 .. image:: /img/github_workflow.*
+  :scale: 50%
 
 Additional info
 ---------------
