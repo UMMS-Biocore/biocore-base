@@ -1,6 +1,14 @@
 /blib/
 /.build/
 _build/
+
+#virtualenv for sphinx
+_sphinx/
+#dia autosave files
+*.autosave
+#common autosaves
+*~
+
 cover_db/
 inc/
 Build

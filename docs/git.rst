@@ -85,6 +85,11 @@ Once it's merged, you can fetch the updated copy of develop:
   $ git checkout develop
   $ git pull upstream develop
 
+Workflow summary
+----------------
+
+.. image:: github_workflow.*
+
 Additional info
 ---------------
 
