@@ -88,7 +88,7 @@ Once it's merged, you can fetch the updated copy of develop:
 Workflow summary
 ----------------
 
-.. image:: github_workflow.*
+.. image:: /img/github_workflow.*
 
 Additional info
 ---------------
