@@ -94,7 +94,7 @@ Workflow summary
 Additional info
 ---------------
 
-`hub <https://hub.github.com/>_` is a tool from github which simplifies many of
+`hub <https://hub.github.com/>`_ is a tool from github which simplifies many of
 these commands, and is highly recommended when working with github.
 
 `Github for Mac <https://mac.github.com/>`_ is an excellent GUI which allows
