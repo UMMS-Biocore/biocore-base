@@ -91,6 +91,12 @@ Workflow summary
 .. image:: /img/github_workflow.*
   :scale: 50%
 
+Common commands
+----------------
+
+.. image:: /img/git-cheat-sheet.*
+  :scale: 50%
+
 Additional info
 ---------------
 
@@ -117,6 +123,12 @@ against, and should be set correctly if you followed the steps above.
 
 FAQ
 ===
+
+How to fix a mess
+-----------------
+
+.. image:: /img/git-pretty.*
+  :scale: 50%
 
 I've lost a file that I didn't commit
 -------------------------------------
