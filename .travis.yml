@@ -5,6 +5,7 @@ python:
 # command to install dependencies
 install: "pip install -q -r requirements.txt --use-mirrors"
 # command to run tests
+before_script: cd docs
 script: sphinx-build -nW -b html -d _build/doctrees . _build/html
 # Flags used here, not in `make html`:
 #  -n   Run in nit-picky mode. Currently, this generates warnings for all missing references.
