@@ -69,7 +69,10 @@ Work in a Feature Branch
 
 .. code-block:: bash
 
-  $ git checkout -u origin 2015-04-22_my_feature
+  $ git checkout develop 
+  $ git pull --ff-only upstream develop
+  $ git checkout -b 2015-04-22_my_feature
+  $ git push --set-upstream origin 2015-04-22_my_feature
   $ .... do some work ...
   $ git add <files>
   $ git commit -m 'Commit message'
