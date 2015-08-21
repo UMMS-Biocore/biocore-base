@@ -14,21 +14,17 @@ We recommend `git <http://git-scm.com/>`_. Free hosting is available on `github
 Recommended Workflow
 ====================
 
-Central org repo
-personal fork
-master, develop, and feature branches
+For small to medium projects (2-50 contributors), we recommend a workflow using an Organization upstream repository as a cannonical source and a fork for each collaborator.
 
-from local:
-git fetch upstream
-git checkout develop
+Changes should be made on feature branches and then merged into the develop branch via Github pull requests.
 
-
-
-For small to medium projects (2-50 contributors), we recommend the following
-workflow:
+.. image:: /img/github_remotes.*
+  :scale: 50%
 
 Create Organization Repo
 ------------------------
+
+If your organization already has a repository, skip this section.
 
 On github, `create an organization
 <https://help.github.com/articles/creating-a-new-organization-account/>`_ if
@@ -85,8 +81,9 @@ from your feature branch.
 Once it's merged, you can fetch the updated copy of develop:
 
 .. code-block:: bash
+
   $ git checkout develop
-  $ git pull upstream develop
+  $ git pull --ff-only upstream develop
 
 Workflow summary
 ----------------
@@ -137,7 +134,7 @@ I've lost a file that I didn't commit
 -------------------------------------
 
 Unfortunately, git can't help you here. Commit early and often. Local backups
-(such as time machine) may have a copy.
+(such as Time Machine or Dropbox) may have a copy.
 
 I accidently deleted a file
 ---------------------------
@@ -169,17 +166,9 @@ I've committed a large file and now my repository is huge
 ---------------------------------------------------------
 
 Large binary files generally shouldn't be kept in source control. Github has a
-100MB per file limit.
+100MB per file limit. It's often best to host these files on a CDN or cloud storage such as S3.
 If you must store a large file in source control, consider using `Large File
 Storage <https://git-lfs.github.com/>`_.
 
 To remove a file from your git tree, see `Removing Objects
 <http://git-scm.com/book/en/v2/Git-Internals-Maintenance-and-Data-Recovery#Removing-Objects>`_. 
-
-
-LFS
-Recovery
-Fork pull model
-GUIs
-Github
-
